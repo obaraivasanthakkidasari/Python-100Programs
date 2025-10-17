@@ -1,0 +1,5 @@
+//#3.Sum of First N Natural Numbers
+
+n=int(input('Enter Number '))
+result=(n*(n+1))/2
+print(result)
