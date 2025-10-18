@@ -3,3 +3,8 @@ if(num1>num2):
     print(num1)
 else:
     print(num2)
+
+
+//Method 2 Max()
+a,b=10,20;
+print(max(a,b)
