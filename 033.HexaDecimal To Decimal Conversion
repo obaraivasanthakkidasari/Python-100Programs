@@ -1,0 +1,3 @@
+HexaDecimal="C9"
+decimal_number =int(HexaDecimal,16)
+print(decimal_number)
