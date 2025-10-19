@@ -1,0 +1,3 @@
+octal_number="512"
+decimal_number =int(octal_number,8)
+print(decimal_number)
