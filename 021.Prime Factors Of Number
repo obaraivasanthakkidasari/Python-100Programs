@@ -1,9 +1,15 @@
-num = 60
-n = num
+public class PrimeFactorsOfNumber {
+    public static void main(String[] args) {
+        int num = 60;  // You can change this number
+        int n = num;
 
-print("Prime factors of", num, "are:")
+        System.out.print("Prime factors of " + num + " are: ");
 
-for i in range(2, n + 1):
-    while num % i == 0:
-        print(i, end=" ")
-        num = num // i
+        for (int i = 2; i <= n; i++) {
+            while (num % i == 0) {
+                System.out.print(i + " ");
+                num /= i;
+            }
+        }
+    }
+}
