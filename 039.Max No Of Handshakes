@@ -1,0 +1,3 @@
+n = 30
+Max_Handshake = ((n-1)*n)/2
+print(Max_Handshake)
