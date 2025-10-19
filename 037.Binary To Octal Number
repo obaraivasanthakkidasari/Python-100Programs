@@ -1,0 +1,3 @@
+num = 0b1010
+result = oct(num)
+print(result)
