@@ -1,0 +1,4 @@
+
+num = 33
+result = oct(num)
+print(result)
