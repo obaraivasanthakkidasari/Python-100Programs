@@ -1,15 +1,11 @@
-public class PrimeFactorsOfNumber {
-    public static void main(String[] args) {
-        int num = 60;  // You can change this number
-        int n = num;
+# Python program to print prime factors of a given number
 
-        System.out.print("Prime factors of " + num + " are: ");
+num = 60  # You can change this number
+n = num
 
-        for (int i = 2; i <= n; i++) {
-            while (num % i == 0) {
-                System.out.print(i + " ");
-                num /= i;
-            }
-        }
-    }
-}
+print("Prime factors of", num, "are:", end=" ")
+
+for i in range(2, n + 1):
+    while num % i == 0:
+        print(i, end=" ")
+        num //= i
