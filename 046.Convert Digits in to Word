@@ -1,0 +1,7 @@
+num = int(input("Enter a digit (0-9): "))
+words = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"]
+
+if 0 <= num <= 9:
+    print("Number in words:", words[num])
+else:
+    print("Please enter a single digit number!")
