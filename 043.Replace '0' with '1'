@@ -1,0 +1,4 @@
+val = int(input('Enter Number'))
+val = str(val)
+Replace = val.replace('0','1')
+print(Replace)
