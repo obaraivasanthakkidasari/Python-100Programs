@@ -1,0 +1,5 @@
+num = int(input("Enter a Number: "))
+
+num_digits = len(str(abs(num)))
+
+print("Number Of Digits:", num_digits)
