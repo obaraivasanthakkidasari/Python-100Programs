@@ -1,0 +1,7 @@
+Number = 828282
+Digit = 2
+
+String1 = str(Number)
+String2 = str(Digit)
+
+print(String1.count(String2))
