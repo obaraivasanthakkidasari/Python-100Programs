@@ -1,0 +1,16 @@
+arr = [5, 2, 8, 1, 3, 9, 7, 4]
+
+n = len(arr)
+half = n // 2
+
+# Sort first half ascending
+first_half = sorted(arr[:half])
+
+# Sort second half descending
+second_half = sorted(arr[half:], reverse=True)
+
+# Combine both halves
+result = first_half + second_half
+
+print("Original array:", arr)
+print("Modified array:", result)
