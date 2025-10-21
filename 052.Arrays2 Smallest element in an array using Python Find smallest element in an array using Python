@@ -1,0 +1,4 @@
+arr = [80,0,9, 10, 75, 89]
+arr.sort()
+print(arr[0])
+print(min(arr))
