@@ -1,0 +1,3 @@
+String = "Vasan Akki"
+String = "".join(String.split())
+print("After removing space string is:",String)
