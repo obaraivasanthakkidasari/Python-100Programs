@@ -1,0 +1,9 @@
+import fnmatch
+
+string = "hello"
+pattern = "he*o"
+
+if fnmatch.fnmatch(string, pattern):
+    print("Strings match!")
+else:
+    print("Strings do not match!")
