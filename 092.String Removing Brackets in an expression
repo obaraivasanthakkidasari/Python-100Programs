@@ -1,0 +1,9 @@
+expression = "a*(b+c)-(d/e)"
+result = ""
+
+
+for char in expression:
+    if char not in "(){}[]":
+        result += char;
+
+print("Expression after removing brackets ", result)
