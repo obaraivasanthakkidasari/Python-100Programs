@@ -1,0 +1,7 @@
+input_string = 'civic'
+rev = input_string[::-1]
+
+if input_string == rev:
+    print(rev + "Is Palindrome")
+else:
+    print(rev + "Is Not Palindrome")
