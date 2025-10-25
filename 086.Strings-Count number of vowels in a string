@@ -1,0 +1,8 @@
+String = "Hello"
+count =0
+
+for char in String:
+    if char.lower() in 'aeiou':
+        count +=1
+
+print('No Of Vowels: ',count)
