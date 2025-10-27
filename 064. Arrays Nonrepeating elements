@@ -1,0 +1,11 @@
+
+arr = [5, 2, 8, 1, 3, 2, 5, 1, 5]
+
+
+non_repeating = []
+
+for num in arr:
+    if arr.count(num) == 1:
+        non_repeating.append(num)
+
+print("Non-repeating elements in array:", non_repeating)
