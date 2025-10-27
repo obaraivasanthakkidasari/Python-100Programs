@@ -1,0 +1,10 @@
+arr = [5, 2, 8, 1, 3, 2, 5, 1, 5]
+
+# List to store repeating elements
+repeating = []
+
+for num in arr:
+    if arr.count(num) > 1 and num not in repeating:
+        repeating.append(num)
+
+print("Repeating elements in array:", repeating)
