@@ -1,0 +1,10 @@
+arr = [121, 454, 22, 343, 78987, 11, 99]
+
+longest = 0
+
+for num in arr:
+    if str(num) == str(num)[::-1]:  # check palindrome
+        if num > longest:
+            longest = num
+
+print("Longest Palindrome in Array:", longest)
