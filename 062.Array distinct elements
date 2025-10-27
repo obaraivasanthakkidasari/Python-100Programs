@@ -1,0 +1,11 @@
+# Example array
+arr = [5, 2, 8, 1, 3, 2, 5, 1, 5]
+
+# Using set to find distinct elements
+distinct_elements = set(arr)
+
+# Count of distinct elements
+count = len(distinct_elements)
+
+print("Distinct elements in array:", distinct_elements)
+print("Number of distinct elements:", count)
