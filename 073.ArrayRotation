@@ -1,0 +1,12 @@
+arr = [1, 2, 3, 4, 5]
+k = 2
+
+# Left rotation
+left = arr[k:] + arr[:k]
+
+# Right rotation
+right = arr[-k:] + arr[:-k]
+
+print("Original:", arr)
+print("Left rotation:", left)
+print("Right rotation:", right)
